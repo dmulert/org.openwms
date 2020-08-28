@@ -323,7 +323,7 @@
         <distribution.repo.snapshot.serverUrl.rootPath>oss.sonatype.org/content/repositories/snapshots</distribution.repo.snapshot.serverUrl.rootPath>
 
         <!-- Dependency versions -->
-        <ameba-lib.version>2.0</ameba-lib.version>
+        <ameba-lib.version>2.4</ameba-lib.version>
         <aspectj.version>1.8.13</aspectj.version> <!-- Keep in sync with boot -->
         <dozer.version>5.5.1</dozer.version>
 
@@ -331,7 +331,7 @@
         <spring-cloud-dependencies.version>Finchley.SR2</spring-cloud-dependencies.version>
         <spring-restdocs-mockmvc.version>2.0.2.RELEASE</spring-restdocs-mockmvc.version>
         <spring.version>5.0.10.RELEASE</spring.version> <!-- Keep in sync with boot -->
-        <start-class></start-class> <!-- keep it empty, set by actual boot module -->
+        <start-class/> <!-- keep it empty, set by actual boot module -->
 
         <!--   Plugin versions   -->
         <asciidoctor-maven-plugin.version>1.5.3</asciidoctor-maven-plugin.version>
